@@ -19,6 +19,8 @@ Gem::Specification.new do |s|
 
   s.rubyforge_project = "simple_form"
 
+  # Changed these dependencies to require at least 3.0 instead of "approximately greater thann" 3.0
+  # for compatability with simple_form 2.0
   s.add_dependency('activemodel', '> 3.0')
   s.add_dependency('actionpack', '> 3.0')
 end
